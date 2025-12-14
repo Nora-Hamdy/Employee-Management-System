@@ -24,6 +24,7 @@
     <ClCompile Include="src\core\models\Employee.cpp" />
     <ClCompile Include="src\helpers\ConfigManager.cpp" />
     <ClCompile Include="src\helpers\consoleHelper.cpp" />
+    <ClCompile Include="src\helpers\inputHelper.cpp" />
     <ClCompile Include="src\repository\EmployeeRepository.cpp" />
     <ClCompile Include="src\services\EmployeeService.cpp" />
   </ItemGroup>
@@ -37,6 +38,7 @@
     <ClInclude Include="include\core\models\Employee.h" />
     <ClInclude Include="include\helpers\ConfigManager.h" />
     <ClInclude Include="include\helpers\consoleHelper.h" />
+    <ClInclude Include="include\helpers\inputHelper.h" />
     <ClInclude Include="include\repository\EmployeeRepository.h" />
     <ClInclude Include="include\services\EmployeeService.h" />
   </ItemGroup>
