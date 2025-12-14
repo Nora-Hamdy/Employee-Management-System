@@ -72,5 +72,8 @@
     <ClInclude Include="include\core\models\Employee.h">
       <Filter>include\core\models</Filter>
     </ClInclude>
+    <ClInclude Include="include\core\common\Constants.h">
+      <Filter>include\core\common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
