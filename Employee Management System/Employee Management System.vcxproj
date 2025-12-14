@@ -28,6 +28,7 @@
     <ClInclude Include="include\core\common\OperationResult.h" />
     <ClInclude Include="include\core\common\OperationStatus.h" />
     <ClInclude Include="include\core\interfaces\IEmployeeRepository.h" />
+    <ClInclude Include="include\core\interfaces\IEmployeeService.h" />
     <ClInclude Include="include\core\models\Date.h" />
     <ClInclude Include="include\core\models\Employee.h" />
   </ItemGroup>
