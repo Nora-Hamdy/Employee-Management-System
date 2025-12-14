@@ -58,5 +58,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\core\models\Date.cpp">
+      <Filter>src\core\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\models\Employee.cpp">
+      <Filter>src\core\models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\models\Date.h">
+      <Filter>include\core\models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\models\Employee.h">
+      <Filter>include\core\models</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
