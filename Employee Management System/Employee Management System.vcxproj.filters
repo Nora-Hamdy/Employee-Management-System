@@ -75,5 +75,11 @@
     <ClInclude Include="include\core\common\Constants.h">
       <Filter>include\core\common</Filter>
     </ClInclude>
+    <ClInclude Include="include\core\common\OperationResult.h">
+      <Filter>include\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\common\OperationStatus.h">
+      <Filter>include\core\common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
