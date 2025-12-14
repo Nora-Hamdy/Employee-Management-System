@@ -1,2 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{d72f1f28-a6c1-448f-821d-46faba9529e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{c30e89a8-1ba3-484c-a5ae-8c69e3aecd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{514844e0-22d8-49ca-8de1-b629df32a3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{6435334a-0f3d-4d29-88f6-91a6e26137ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\helpers">
+      <UniqueIdentifier>{ec2ad2a7-ccd2-4eb9-9dfd-4084f1802ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\repository">
+      <UniqueIdentifier>{ecaaee55-f83c-4111-84ae-9d345c2cafd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{55480be7-6d7a-4f42-a332-b657f55d2283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{ad483762-153f-4c3e-a121-c3d380a50697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\models">
+      <UniqueIdentifier>{1527b188-15bd-406b-afb9-1b16eb1b63af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{13b024a1-a74c-4520-b95c-10a518e39aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{3db49e1e-5ac8-4aca-85b7-4d18fb34e699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\helpers">
+      <UniqueIdentifier>{33d21503-1565-4a5c-9662-601f1106ca52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\repository">
+      <UniqueIdentifier>{8034eb15-df22-4fac-8432-8a27e7161046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\services">
+      <UniqueIdentifier>{5a4a6214-5f88-49ca-8e01-1948a4adb6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ui">
+      <UniqueIdentifier>{a58e4089-4f98-40fa-9efe-0a34800e334f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\common">
+      <UniqueIdentifier>{88a2fbbc-f401-41dd-8534-df2ed6fb6f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\interfaces">
+      <UniqueIdentifier>{a5a69db2-957a-420e-8ed0-9cd8218fbbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\models">
+      <UniqueIdentifier>{752b1a3d-8595-4403-86f0-4472a8b371be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
