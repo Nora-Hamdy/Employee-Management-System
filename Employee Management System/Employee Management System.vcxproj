@@ -27,6 +27,7 @@
     <ClCompile Include="src\helpers\inputHelper.cpp" />
     <ClCompile Include="src\repository\EmployeeRepository.cpp" />
     <ClCompile Include="src\services\EmployeeService.cpp" />
+    <ClCompile Include="src\ui\EmployeeUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\core\common\Constants.h" />
@@ -41,6 +42,7 @@
     <ClInclude Include="include\helpers\inputHelper.h" />
     <ClInclude Include="include\repository\EmployeeRepository.h" />
     <ClInclude Include="include\services\EmployeeService.h" />
+    <ClInclude Include="include\ui\EmployeeUI.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="config\config.txt" />
