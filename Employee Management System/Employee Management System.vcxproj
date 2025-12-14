@@ -23,6 +23,7 @@
     <ClCompile Include="src\core\models\Date.cpp" />
     <ClCompile Include="src\core\models\Employee.cpp" />
     <ClCompile Include="src\repository\EmployeeRepository.cpp" />
+    <ClCompile Include="src\services\EmployeeService.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\core\common\Constants.h" />
@@ -33,6 +34,7 @@
     <ClInclude Include="include\core\models\Date.h" />
     <ClInclude Include="include\core\models\Employee.h" />
     <ClInclude Include="include\repository\EmployeeRepository.h" />
+    <ClInclude Include="include\services\EmployeeService.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\employees.txt" />
