@@ -12,8 +12,6 @@ private:
 	Date dob;
 	Date hireDate;
 public:
-	static constexpr double TAX_RATE = 0.2;
-	static constexpr double INSURANCE_RATE = 0.05;
 
 	Employee();
 	Employee(const string& empName, const string& empSocialNumber, const string& empJobTitle, const double salary,
