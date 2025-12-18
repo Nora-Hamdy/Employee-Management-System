@@ -64,6 +64,24 @@
     <ClCompile Include="src\core\models\Employee.cpp">
       <Filter>src\core\models</Filter>
     </ClCompile>
+    <ClCompile Include="src\helpers\ConfigManager.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\consoleHelper.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\inputHelper.cpp">
+      <Filter>src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\repository\EmployeeRepository.cpp">
+      <Filter>src\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\EmployeeService.cpp">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\EmployeeUI.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\core\models\Date.h">
@@ -81,5 +99,37 @@
     <ClInclude Include="include\core\common\OperationStatus.h">
       <Filter>include\core\common</Filter>
     </ClInclude>
+    <ClInclude Include="include\helpers\ConfigManager.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helpers\consoleHelper.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helpers\inputHelper.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\interfaces\IEmployeeRepository.h">
+      <Filter>include\core\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\interfaces\IEmployeeService.h">
+      <Filter>include\core\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\repository\EmployeeRepository.h">
+      <Filter>include\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="include\services\EmployeeService.h">
+      <Filter>include\services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\EmployeeUI.h">
+      <Filter>include\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config\config.txt">
+      <Filter>config</Filter>
+    </Text>
+    <Text Include="data\employees.txt">
+      <Filter>data</Filter>
+    </Text>
   </ItemGroup>
 </Project>
