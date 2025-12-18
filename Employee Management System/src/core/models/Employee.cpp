@@ -36,11 +36,11 @@ double Employee::computeNetSalary(const double taxRate, const double insuranceRa
 string Employee::toString() const
 {
 	ostringstream oss;
-	oss << "| " << setw(21) << setiosflags(ios::left) << this->name << "  | "
-		<< "| " << setw(13) << setiosflags(ios::left) << this->socialNumber << "  | "
-		<< "| " << setw(19) << setiosflags(ios::left) << this->jobTitle << "  | "
-		<< "| " << setw(13) << setiosflags(ios::left) << this->computeNetSalary(TAX_RATE, INSURANCE_RATE) << "  | "
-		<< "| " << setw(4) << setiosflags(ios::left) << this->getAge() << "  | "
-		<< "| " << setw(13) << setiosflags(ios::left) << this->getYearsWorked() << "  | ";
+	oss << "|" << setw(19) << setiosflags(ios::left) << this->name << " | "
+		<< "| " << setw(13) << setiosflags(ios::left) << this->socialNumber << " | "
+		<< "| " << setw(31) << setiosflags(ios::left) << this->jobTitle << " | "
+		<< "| " << setw(13) << setiosflags(ios::left) << this->computeNetSalary(TAX_RATE, INSURANCE_RATE) << " | "
+		<< "| " << setw(4) << setiosflags(ios::left) << this->getAge() << " | "
+		<< "| " << setw(12) << setiosflags(ios::left) << this->getYearsWorked() << "| ";
 	return oss.str();
 }
