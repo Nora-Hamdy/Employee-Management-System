@@ -271,11 +271,11 @@ void EmployeeUI::saveData() const
 
 void EmployeeUI::printEmployeeTableHeader() const
 {
-	cout << "| " << setw(21) << setiosflags(ios::left) << "Name" << "  | ";
-	cout << "| " << setw(13) << setiosflags(ios::left) << "Social number" << "  | ";
-	cout << "| " << setw(19) << setiosflags(ios::left) << "Job Title" << "  | ";
-	cout << "| " << setw(13) << setiosflags(ios::left) << "Net Salary($)" << "  | ";
-	cout << "| " << setw(4) << setiosflags(ios::left) << "Age" << "  | ";
-	cout << "| " << setw(13) << setiosflags(ios::left) << "Years Worked" << "  | " << endl;
+	cout << "|" << setw(19) << setiosflags(ios::left) << "Name" << " | ";
+	cout << "| " << setw(13) << setiosflags(ios::left) << "Social Number" << " | ";
+	cout << "| " << setw(31) << setiosflags(ios::left) << "Job Title" << " | ";
+	cout << "| " << setw(13) << setiosflags(ios::left) << "Net Salary($)" << " | ";
+	cout << "| " << setw(4) << setiosflags(ios::left) << "Age" << " | ";
+	cout << "| " << setw(12) << setiosflags(ios::left) << "Years Worked" << "| " << endl;
 	printSeparator();
 }
