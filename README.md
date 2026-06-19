@@ -1,4 +1,4 @@
-# Employee Management System (C++)
+# 👥 Employee Management System (C++)
 
 ![C++](https://img.shields.io/badge/language-C++-blue)
 
