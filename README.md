@@ -5,6 +5,20 @@
 A console-based Employee Management System built using clean architecture
 principles and layered design.
 
+## 📑 Table of Contents
+
+- [🏗 Architecture Overview](#-architecture-overview)
+- [🧩 Design Patterns Used](#-design-patterns-used)
+- [🔄 Operation Result Pattern](#-operation-result-pattern)
+- [🛠 Technologies Used](#-technologies-used)
+- [🧠 Concepts Used](#-concepts-used)
+- [🖥 UI & Data Storage](#-ui--data-storage)
+- [✨ Features](#-features)
+- [🗂 Project Structure](#-project-structure)
+- [🚀 Running the Project](#-running-the-project)
+- [📌 Purpose](#-purpose)
+- [📄 License](#-license)
+
 ## 🏗 Architecture Overview
 
 The project follows a clear separation of concerns:
