@@ -53,8 +53,9 @@ This ensures consistent error handling and messaging across layers.
 ## 🧠 Concepts Used
 
 - Object-Oriented Design (OOP)
-- Clean Architecture
-- Layered architecture with separation of concerns
+- Clean and maintainable layered architecture
+- Separation of concerns
+- Software design principles
 
 ## 🖥 UI & Data Storage
 
@@ -106,7 +107,13 @@ Employee Management System/
 
 ## 🚀 Running the Project
 
-The project is a console-based C++ application and can be built and run using any standard C++17 compiler or higher.
+1. Clone the repository
+```bash id="g3k9qz"
+git clone https://github.com/Nora-Hamdy/Employee-Management-System.git
+```
+2. Open the project in Visual Studio
+3. Build using a C++17 compatible compiler
+4. Run the application
 
 ## 📌 Purpose
 
